@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+/* nav */
+/* nav-a */
+.nav_a {
+    background-color: #282828;
+    padding: 7px 7px;
+    color:  #dcdcdc;
+}
+.icon {
+    color:  #dcdcdc;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 1.6rem;
+    text-align: left;
+}
+.foxic {
+    color: #dcdcdc;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.holliday {
+    color: #19b098;
+}
+.ser {
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 18px;
+}
+.ser:hover {
+    text-decoration: none;
+    color: #19b098;
+    font-size: 19px;
+}
+.services {
+    text-align: right;
+}
+.servi {
+    margin-top: 8px;
+    line-height: 18px;
+    display: inline-block;
+}
+#language-id {
+    background: none;
+    color: #dcdcdc;
+    border: none;
+    font-size: 18px;
+    padding-left: 14px;
+}
+#language-id:hover {
+    background:none;
+    color: #19b098;
+    font-size: 19px;
+    border: none;
+}
+#money-id {
+    background: none;
+    color: #dcdcdc;
+    border: none;
+    font-size: 18px;
+    padding-left: 14px;
+}
+#money-id:hover {
+    background:none;
+    color: #19b098;
+    font-size: 19px;
+    border: none;
+}
+.login {
+    color: #dcdcdc;
+    font-size: 18px;
+    padding-left: 14px;
+}
+.login:hover {
+    text-decoration: none;
+    color: #19b098;
+    font-size: 19px;
+}
+/* nav-b */
+.logo {
+    max-width: 150px;
+    width: 100%;
+}
+/* header */
+.carousel-indicators {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.banner-text-a {
+   
+    padding-bottom: 100px;
+    text-align: center;
+}  
+.banner-title {
+    line-height: 1.5rem;
+    font-weight: 700;
+    color: rgb(40, 40, 40);
+    opacity: 1;
+    transform: translateY(0%);
+}
+.banner-content {
+    line-height: 1.5em;
+    font-weight: 400;
+    color: rgb(124, 124, 124);
+    opacity: 1;
+    transform: translateY(0%);
+    margin: 40px 0 50px 0;;
+}
+.banner-shopnow {
+    text-decoration: none;
+    color: #fff;
+    background-color: #17c6aa;
+    
+    font-family: Open Sans,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px 38px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border: 0!important;
+    border-radius: 5px;
+}
+.banner-shopnow:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #282828;
+    
+    font-family: Open Sans,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px 38px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border: 0!important;
+}
+.carousel-indicators li {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 5px;
+    height: 5px;
+    margin: 10px;
+    padding: 0;
+    cursor: pointer;
+    transition: .15s;
+    color: transparent;
+    border: 0;
+    border-radius: 50%;
+    outline: 0;
+    background-color: black;
+}
+.carousel-indicators li:hover { 
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    cursor: pointer;
+    transition: .15s;
+    color: transparent;
+    border-radius: 50%;
+    background-color: #fff;
+    border: solid 2px #17c6aa;
+}
+/* content */
+
+/* footer */
