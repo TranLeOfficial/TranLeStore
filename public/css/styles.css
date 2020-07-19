@@ -565,6 +565,14 @@
     padding-right: 80px;
     padding-top: 200px;
 }
+.header-content-background:hover {
+    -webkit-transform:scale(1); transform:scale(1);
+    overflow:hidden;
+    -webkit-transform:scale(1.05);
+     transform:scale(1.05); 
+     -webkit-transition: all 0.7s ease; 
+     transition: all 0.7s ease;
+}
 .summer {
     text-align: center;
 }
@@ -674,4 +682,129 @@
     font-size: 1.2rem;
 }
 
-/* footer */
+/* Zoom photo */
+.content-a-left:hover {
+    -webkit-transform:scale(1); transform:scale(1);
+    overflow:hidden;
+    -webkit-transform:scale(1.05);
+     transform:scale(1.05); 
+     -webkit-transition: all 0.7s ease; 
+     transition: all 0.7s ease;
+}
+.content-c-left:hover {
+    -webkit-transform:scale(1); transform:scale(1);
+    overflow:hidden;
+    -webkit-transform:scale(1.05);
+     transform:scale(1.05); 
+     -webkit-transition: all 0.7s ease; 
+     transition: all 0.7s ease;
+}
+.content-a-right:hover {
+    -webkit-transform:scale(1); transform:scale(1);
+    overflow:hidden;
+    -webkit-transform:scale(1.05);
+     transform:scale(1.05); 
+     -webkit-transition: all 0.7s ease; 
+     transition: all 0.7s ease;
+}
+.content-c-right:hover {
+    -webkit-transform:scale(1); transform:scale(1);
+    overflow:hidden;
+    -webkit-transform:scale(1.05);
+     transform:scale(1.05); 
+     -webkit-transition: all 0.7s ease; 
+     transition: all 0.7s ease;
+}
+/* icon diplom */
+.icon-big {
+    background-color: #383838;
+    padding: 50px 0;
+}
+.icon-big-a {
+    text-align: center;
+}
+.heo {
+    color: #fff;
+    font-size: 5.5rem;
+}
+.fast-shipping {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 30px 0 20px 0;
+    font-family: serif;
+}
+.free-delivery {
+    font-weight: 400;
+    font-size: 1.25rem; 
+    color: #fff;
+    font-family: serif;
+}
+
+/* ========================================footer====================================== */
+.footer-all {
+    margin: 0 20px;
+    padding: 50px 0;
+}
+.link-mail {
+    text-decoration: none;
+    color: #282828;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.link-mail:hover {
+    text-decoration: none;
+    color: #17c6aa;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.email {
+    color: #282828;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+.hours-mon {
+    color: #282828;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.video-pre {
+    color: #282828;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.video-pre:hover {
+    color: #17c6aa;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.icon-footer {
+    padding-left: 10px;
+    font-size: 1.5rem;
+    color: #282828;
+    text-decoration: none;
+}
+.icon-footer:hover {
+    padding-left: 10px;
+    font-size: 1.5rem;
+    color: #17c6aa;
+    text-decoration: none;
+}
+/* footer========================B */
+.shop-info {
+    font-weight: 700;
+    font-size: 21px;
+}
+.footer-copyright {
+    color: #282828;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-finish {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px 0;
+}
