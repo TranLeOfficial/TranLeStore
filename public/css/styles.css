@@ -85,7 +85,6 @@
     padding: 20px 15px; 
     background-color: #fff;
 }
-
 .logo {
     max-width: 150px;
     width: 100%;
@@ -808,3 +807,104 @@
     background-color: #f7f7f7;
     padding: 20px 0;
 }
+
+@media (max-width: 580px)
+{
+    .banner-text-a {
+        width: 100%;
+    }
+}
+#collapsibleNavId {
+    text-align: center;
+    margin-left: 130px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #282828;
+    padding-left: -50px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #42d5bd;
+}
+
+#hotface {
+    color: #f8357b;
+}
+#hotface:hover {
+    color: #42d5bd;
+}
+.foxic-huhu {
+    margin-left: 180px;
+    font-size: 1.25rem;
+}
+.icon-nav-a {
+    color:  #dcdcdc;
+    text-decoration: none;
+    padding-right: 13px;
+    font-size: 1.6rem;
+    text-align: left;
+}
+.icon-nav-a:hover {
+    color:  #42d5bd;
+}
+.fa-shopping-bag,.fa-user-o {
+    color: #dcdcdc;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #dcdcdc;
+}
+.safe {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.safe:hover {
+    color: cyan;
+}
+.shop-info-top {
+    margin-bottom: 50px;
+}
+.shop-info-bot {
+    margin-bottom: 130px;
+}
+.icon-footer {
+    color: black;
+}
+.leo {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.phone-icon {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: black;
+}
+.phone-icon:hover {
+    color: cyan;
+    text-decoration: none;
+}
+#foxic-footer {
+    font-size: 1.16rem;
+}
+#foxic {
+    font-weight: 500;
+}
+#vouchers {
+    margin-top: 80px;   
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.cuoi {
+    font-weight: bold;
+    padding-top: 10px;
+    border: 3px black dashed;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#foxic-cuoi {
+    color: #42d5bd;
+}
+#theme-cuoi {
+    color: black;
+}
+
