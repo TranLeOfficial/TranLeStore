@@ -171,13 +171,7 @@
     left: 15px;
 }
 /* header */
-.carousel-indicators {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
+
 
 .banner-text-a {
    
@@ -821,7 +815,7 @@
 
 .navbar-light .navbar-nav .nav-link {
     color: #282828;
-    padding-left: -50px;
+   
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: #42d5bd;
@@ -886,6 +880,7 @@
 #foxic-footer {
     font-size: 1.16rem;
 }
+
 #foxic {
     font-weight: 500;
 }

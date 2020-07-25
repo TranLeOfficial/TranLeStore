@@ -18,67 +18,56 @@
 
     <!-- b4-nav-default-a -->
 
-    <nav class="navbar navbar-expand-sm navbar-light nav-a">
-      <a class="navbar-brand" href="#">
-        <a href="#" class="icon-nav-a"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-        <a href="#" class="icon-nav-a"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="#" class="icon-nav-a"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#" class="icon-nav-a"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-        <a href="#" class="icon-nav-a"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="#" class="icon-nav-a"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-        <a href="#" class="icon-nav-a"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-      </a>
+    <div class="nav-a">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#" class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+          <a href="#" class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#" class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#" class="icon"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+          <a href="#" class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="#" class="icon"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+          <a href="#" class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-md-4">
+          <div class="foxic">
+            <i class="fa fa-gift" aria-hidden="true"></i>
+            <span>
+              Today only! Post <span class="holliday">holliday</span> Flash Sale! 2 for $20
+            </span>
+          </div>
+        </div>
+        <div class="col-md-4 services">
+          <div class="servi">
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            <a href="#" class="ser">Services</a>
+            <select name="language" id="language-id">
+              <option>English</option>
+              <option>Spanish</option>
+              <option>German</option>
+              <option>Franch</option>
+            </select>
+            <select name="money" id="money-id">
+              <option>USD</option>
+              <option>CAD</option>
+              <option>DKK</option>
+              <option>EUR</option>
+              <option>GBP</option>
+              <option>HKD</option>
+              <option>JPY</option>
+              <option>NZD</option>
+              <option>SEK</option>
+              <option>SGD</option>
+              <option>AUD</option>
+            </select>
+            <a href="#" class="login">
+              <i class="fa fa-user-o" aria-hidden="true"></i>
+              Log in</a>
+          </div>
 
-      <div class="foxic-ngoai">
-        <div class="foxic-huhu">
-          <i class="fa fa-gift" aria-hidden="true"></i>
-          <span>
-            Today only! Post <span class="holliday">holliday</span> Flash Sale! 2 for $20
-          </span>
         </div>
       </div>
-
-      <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link services" href="#">
-              <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-              <span class="ser">Services</span>
-              <span class="sr-only">(current)</span></a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle ser" href="#" id="dropdownId language-id" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">English</a>
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
-              <a class="dropdown-item" href="#">Spanish</a>
-              <a class="dropdown-item" href="#">German</a>
-              <a class="dropdown-item" href="#">Franch</a>
-            </div>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle ser" href="#" id="dropdownId language-id" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">USD</a>
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
-              <a class="dropdown-item" href="#">CAD</a>
-              <a class="dropdown-item" href="#">AUD</a>
-              <a class="dropdown-item" href="#">JPY</a>
-              <a class="dropdown-item" href="#">VND</a>
-              <a class="dropdown-item" href="#">GBP</a>
-              <a class="dropdown-item" href="#">SEK</a>
-            </div>
-          </li>
-
-          <li class="nav-item active">
-            <a class="nav-link services" href="#">
-              <i class="fa fa-user-o" aria-hidden="true"></i>
-              <span class="ser">Log in</span>
-              <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    </div>
     <!-- b4-default nav-b -->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <a class="navbar-brand" href="#">
@@ -93,9 +82,10 @@
       <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active dropdown menu-nav-b">
-            <a class="nav-link dropdown-toggle menu-nav-letter" href="#" id="dropdownId" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Home Pages</a>
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+            <span class="menu-nav-letter">Home Pages</span></a>
+            <div class="dropdown-menu" >
               <a class="dropdown-item" href="#">Home Pages 1</a>
               <a class="dropdown-item" href="#">Home Pages 2</a>
               <a class="dropdown-item" href="#">Home Pages 3</a>
@@ -107,9 +97,10 @@
             </div>
           </li>
           <li class="nav-item active dropdown menu-nav-b">
-            <a class="nav-link dropdown-toggle menu-nav-letter" href="#" id="dropdownId" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Theme features</a>
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <span class="menu-nav-letter">Theme features</span></a>
+            <div class="dropdown-menu" >
               <a class="dropdown-item" href="#">Theme features 1</a>
               <a class="dropdown-item" href="#">Theme features 2</a>
               <a class="dropdown-item" href="#">Theme features 3</a>
@@ -121,9 +112,10 @@
             </div>
           </li>
           <li class="nav-item active dropdown menu-nav-b">
-            <a class="nav-link dropdown-toggle menu-nav-letter" href="#" id="dropdownId" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Shops</a>
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <span class="menu-nav-letter">Shops</span></a>
+            <div class="dropdown-menu" >
               <a class="dropdown-item" href="#">Shops 1</a>
               <a class="dropdown-item" href="#">Shops 2</a>
               <a class="dropdown-item" href="#">Shops 3</a>
@@ -135,9 +127,10 @@
             </div>
           </li>
           <li class="nav-item active dropdown menu-nav-b">
-            <a class="nav-link dropdown-toggle menu-nav-letter" href="#" id="dropdownId" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Men<span class="menu-label">SALE</span></a>
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <span class="menu-nav-letter">Men</span><span class="menu-label">SALE</span></a>
+            <div class="dropdown-menu" >
               <a class="dropdown-item" href="#">Men 1</a>
               <a class="dropdown-item" href="#">Men 2</a>
               <a class="dropdown-item" href="#">Men 3</a>
@@ -676,7 +669,7 @@
             <p id="foxic-footer"><span id="foxic">FOXic</span> - worldwide fashion store with
               wide collection of styles
               with over 100 international fashion
-              brands. </p> <p id="foxic-footer">Shop designer clothes, shoes,
+              brands. </p> <p class="foxic-footer">Shop designer clothes, shoes,
               bags & accessories for Men & Women</p>
 
             <p id="vouchers">Vouchers & Discounts</p>
